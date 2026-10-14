@@ -5,7 +5,7 @@
     "technologies": ["HTML", "CSS"],
     "role": "Developer",
     "screenshot": "images/project1.png",
-    "link": "https://github.com/planasjoas-dev/planasjias.github.ioi"
+    "link": "https://github.com/YOUR-GITHUB USERNAME/YOUR-REPOSITORY"
   },
   {
     "title": "Personal Website",
@@ -13,7 +13,7 @@
     "technologies": ["HTML", "CSS"],
     "role": "Designer and Developer",
     "screenshot": "images/project2.png",
-    "link": "project2.png"
+    "link": "https://github.com/YOUR-GITHUB USERNAME/YOUR-REPOSITORY"
   },
   {
     "title": "Calculator",
@@ -21,6 +21,6 @@
     "technologies": ["JavaScript", "HTML", "CSS"],
     "role": "Developer",
     "screenshot": "images/project3.png",
-    "link": "https://github.com/planasjoas-dev/planasjias.github.ioi"
+    "link": "https://github.com/YOUR-GITHUB USERNAME/YOUR-REPOSITORY"
   }
 ]

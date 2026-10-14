@@ -1,0 +1,269 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #202428, #5c6268);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Background */
+.login-container {
+    background-image: linear-gradient(
+        rgba(25, 28, 30, 0.55),
+        rgba(25, 28, 30, 0.65)
+    ), url("login.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Box */
+.login-box {
+    background: rgba(65, 70, 75, 0.88);
+
+    padding: 15px;
+    border-radius: 15px;
+
+    border: 1px solid #8c9399;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+
+    width: 330px;
+    text-align: center;
+
+    transition: 0.3s ease;
+}
+
+/* Login Box Hover */
+.login-box:hover {
+    transform: translateY(-4px);
+    background: rgba(75, 80, 85, 0.92);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Heading */
+h2 {
+    margin-bottom: 25px;
+    color: #e1e4e6;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    text-align: left;
+    color: #d0d4d7;
+}
+
+/* Input */
+.input-group input {
+    width: 100%;
+    padding: 8px 0.5px;
+    text-align: left;
+
+    border-radius: 6px;
+    border: 1px solid #8c9399;
+
+    background: #303438;
+    color: white;
+
+    outline: none;
+
+    transition: 0.3s ease;
+}
+
+/* Input Hover */
+.input-group input:hover {
+    border-color: #c5c9cc;
+    background: #383d41;
+}
+
+/* Input Focus */
+.input-group input:focus {
+    border-color: #e0e3e5;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+
+    background: #70777d;
+
+    border: 1px solid #9da3a8;
+    border-radius: 6px;
+
+    color: white;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    transition: 0.3s ease;
+}
+
+
+
+/* Social Section */
+.social-section {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.social-section p {
+    margin-bottom: 12px;
+    color: #c5c9cc;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+/* Social Icons Container */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Social Links */
+.social-icons a {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: #454a4f;
+    border: 1px solid #858b90;
+
+    color: #d5d9dc;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.social-icons a:hover {
+    background: #8b9297;
+    color: white;
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Icon Size */
+.social-icons i {
+    font-size: 17px;
+}
+
+/* Click Effect */
+.social-icons a:active {
+    transform: translateY(0);
+}
+
+
+
+/* Button Hover */
+button:hover {
+    background: #969da2;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* Button Click */
+button:active {
+    transform: translateY(0);
+}
+
+/* Remember Me */
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    color: #d0d4d7;
+    font-size: 14px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+    accent-color: #9da3a8;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #d5d9dc;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+/* Link Hover */
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer p {
+    margin-top: 10px;
+    color: #c1c5c8;
+}
+
+.social-iconsc a{
+    position: relative;
+}
+
+.social-icons a::after{
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #1f331f;
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 5px;
+
+    font-size: 12px;
+    white-space: nowrap;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
