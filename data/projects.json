@@ -1,7 +1,7 @@
 [
   {
     "title": "Login Page",
-    "description": "My simple Login page",
+    "description": "Functional login page built with HTML AND CSS.",
     "technologies": ["HTML", "CSS"],
     "role": "Developer",
     "screenshot": "images/project1.png",
@@ -9,16 +9,16 @@
   },
   {
     "title": "Personal Website",
-    "description": "My WebPage",
+    "description": "My personal portfolio showcasing my profile and information.",
     "technologies": ["HTML", "CSS"],
-    "role": "Designer and developer",
+    "role": "Designer and Developer",
     "screenshot": "images/project2.png",
     "link": "project2.png"
   },
   {
-    "title": "Grade Calculator",
-    "description": "A small tool that calculates a student's average from entered grades. (Replace with your own description.)",
-    "technologies": ["JavaScript", "HTML"],
+    "title": "Calculator",
+    "description": "Learnig by buiding: my calculator project",
+    "technologies": ["JavaScript", "HTML", "CSS"],
     "role": "Developer",
     "screenshot": "images/project3.jpg",
     "link": "https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-3"
