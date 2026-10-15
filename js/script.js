@@ -5,7 +5,7 @@
    ========================================================= */
 
 // >>> CHANGE THIS to your real GitHub username <<<
-const GITHUB_USERNAME = "planasjoas";
+const GITHUB_USERNAME = "planasjoas-dev";
 
 
 /* ---------- 1. Mobile menu ---------- */
@@ -102,7 +102,7 @@ async function loadRepos() {
     '<li class="status-message error">GitHub repositories are currently unavailable. Please try again later.</li>';
 
   // Skip the request until a real username is set (avoids a 404 error)
-  if (GITHUB_USERNAME === "joasplanas") {
+  if (GITHUB_USERNAME === "YOUR-GITHUB-USERNAME") {
     repoList.innerHTML =
       '<li class="status-message">Set your GitHub username in js/script.js to show your latest repositories.</li>';
     return;
